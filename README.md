@@ -1,5 +1,7 @@
 # aws-java-sdk-sts-env-support
 
+[![Build Status](https://travis-ci.org/doublescoring/aws-java-sdk-sts-env-support.svg?branch=master)](https://travis-ci.org/doublescoring/aws-java-sdk-sts-env-support)
+
 AWSCredentialsProvider implementation to simplify cross-account deployment
 customization based on env variables. Use case:
 
