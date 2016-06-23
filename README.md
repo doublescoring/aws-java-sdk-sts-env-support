@@ -52,3 +52,6 @@ _DefaultAWSCredentialsProviderChain_ on production account and _STSAssumeRoleSes
  AmazonDynamoDBClient dynamoDBClient =
  			new AmazonDynamoDBClient(new EnvBasedSTSAssumeRoleSessionCredentialsProvider());
  ```
+
+ On dev account you could pass env variable _AWS_ROLE_ARN_ with role arn and
+ your code will try assume the role passed.
